@@ -1,3 +1,55 @@
+
 .login{
 	display: flex;
+}
+
+.section-text{
+	margin-right: 80px;
+}
+li{
+	list-style: none;
+}
+.nav-section{
+	display: flex;
+	margin-top: 30px;
+	margin-right:0px;
+}
+h3{
+	font-size: 18px;
+}
+.nav-section li{
+	margin-right: 10px;
+}
+
+.logo{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.login{
+	padding-top: 20px;
+}
+
+.text-1{
+	margin-top: 50px;
+}
+
+.text-name{
+	margin-top: 40px;
+}
+
+.full-name-please{
+	margin-top: 10px;
+}
+
+.input-name{
+	width: 700px;
+	height:40px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+.most-important{
+	margin-top: 50px;
 }
