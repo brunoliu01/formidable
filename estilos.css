@@ -47,7 +47,8 @@ h3{
 .text-name{
 	padding-bottom:10px;
 	padding-top:20px;
-	margin-right:50px;
+	margin-left:70px;
+
 }
 
 .full-name-please{
@@ -55,10 +56,11 @@ h3{
 }
 
 .input-name{
-	width: 100%;
+	width: 80%;
 	height:40px;
 	margin-top: 10px;
 	padding-top: 10px 40px;
+	border: 1px solid #ccc;
 }
 
 .most-important{
@@ -126,11 +128,18 @@ h3{
     border: solid;
 }	
 
-@media screen and (max-width: 768px)
-estilo.css:276
-.form-save .form-group {
-    align-items: flex-start;
-    flex-direction: column;
+@media screen and (max-width: 480px)
+{
+.save {
+    width: 100%;
+    margin:auto; 
+}
 }
 
-
+h4 {
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
