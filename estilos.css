@@ -144,12 +144,11 @@ h4 {
     margin-bottom: 30px;
 }
 
-footer:hover {
+.button-footer:hover {
     text-decoration: none;
     color: #fff;
     background: #4abde2;
-
-    }
+}
 
     .button-footer {
     border: solid 1px #4abde2;
@@ -158,4 +157,11 @@ footer:hover {
     vertical-align: middle;
     color: #4abde2;
     transition: all .3s;
+}
+
+.footer {
+    border-width: 2px;
+    padding: 25px 40px;
+    margin-top: 20px;
+    margin-bottom:95px;
 }
