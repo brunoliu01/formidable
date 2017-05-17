@@ -2,7 +2,9 @@
 .login{
 	display: flex;
 }
-
+h1{
+font-family: 'Playfair Display', sans-serif;
+}
 .section-text{
 	margin-right: 80px;
 }
@@ -53,6 +55,7 @@ h3{
 
 .full-name-please{
 	margin-top: 10px;
+	color: #ccc;
 }
 
 .input-name{
@@ -180,3 +183,25 @@ h4 {
 
 }
 
+@media screen and (max-width: 768px)
+{  
+.login {
+    display: none;
+}
+
+@media screen and (max-width: 768px)
+{  
+.menu-ham {
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+}
+.menu-ham {
+    displ
+
+    }
+
+.what-is{
+	font-style: bold;
+}
