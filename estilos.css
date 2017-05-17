@@ -165,3 +165,18 @@ h4 {
     margin-top: 20px;
     margin-bottom:95px;
 }
+
+@media screen and (max-width: 480px){
+
+.button-footer {
+    padding: 13px 35px;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+}
+
