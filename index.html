@@ -60,18 +60,65 @@
   		</div>
     <div class="most-important container">
        <div class="row">
-          <p>
-            What is the single most important quality of a restaurant?
-         </p>
-        <ul>
-            <li>How loud or quiet it is</li>
-            <li>The drink selection</li>
-            <li>The quality of the food</li>
-            <li>The dessert</li>
-            <li>other</li>
-        </ul>
-         <p>Think hard! You can only choose one</p>
+          <div class="label-single col-xs-12 col-sm-6 col-md-8">
+             <label>Whar is the single most important quality of a restaurant</label>
+            <div class="radio">
+                 <input id="radio-1" type="radio" name="radio" checked="">
+                  <label for="radio-1" class="radio-label">
+                How loud or quie it is
+                  </label>
+            </div>
+            <div class="radio">
+                  <input id="radio-2" type="radio" name="radio" checked="">
+                 <label for="radio-2" class="radio-label">
+                  The drink selection
+                </label>
+          </div>
+          <div class="radio">
+                  <input id="radio-3" type="radio" name="radio" checked="">
+                  <label for="radio-3" class="radio-label">
+                   The quality of the food
+                  </label>
+          </div>
+          <div class="radio">
+                  <input id="radio-4" type="radio" name="radio" checked="">
+                  <label for="radio-4" class="radio-label">
+                    the dessert
+                  </label>
+          </div>
+          <div class="radio">
+                  <input id="radio-5" type="radio" name="radio" checked="">
+                  <label for="radio-5" class="radio-label">
+                    Other:
+                  </label>
+                   <input type="text" id="Other">
+          </div>
+            <p>Think hard! You can only choose one</p>
         </div>
+     </div>
     </div>
+    <div class="container">
+          <div class=" form-4 row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="form-group">
+                    <label>QUESTION TITLE</label>
+                    <input type="tect" class="form-control" placeholder="descriptive the qualities">
+                </div>
+                <div class="form-group">
+                    <label>HELP TEXT</label>
+                    <input type="tect" class="form-control" placeholder="descriptive help">
+                </div>
+                <div class="form-group">
+                     <label>QUESTION TYPE</label>
+                    <select class="selectpicker form-control">
+                      <option value="">select</option>
+                      <option value="">select</option>
+                      <option value="">select</option>
+                    </select>
+                </div>
+                 <button type="submit" class="save">SAVE</button>
+             </div>    
+         </div>
+    </div>  
   </body>
 </html>
